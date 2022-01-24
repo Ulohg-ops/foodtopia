@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Foodtopia/foodtopia/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Project/foodtopia/app/src/main/res/layout/activity_home.xml" value="0.16666666666666666" />
         <entry key="..\:/Project/foodtopia/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Project/foodtopia/app/src/main/res/layout/activity_sign_up.xml" value="0.1693840579710145" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
