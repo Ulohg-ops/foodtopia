@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/og_bg2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/onboarding_img2"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deit Plan"
+        android:fontFamily="@font/aldrich"
+
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:fontFamily="@font/aldrich"
+
+        android:layout_height="170dp"
+        android:text="We have multiple diet plan for you to choose.Just choose suitable one achieve your ideal body."
+        android:textColor="@color/og_context"
+        android:textSize="18dp"
+        android:gravity="center"
+        />
+</LinearLayout>
