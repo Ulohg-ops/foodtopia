@@ -10,16 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodTopia">
         <activity
-            android:name=".introductoryActivity"
-            android:exported="false" />
+            android:name=".LoginActivity"
+            android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".OnboardingActivity"
+            android:exported="true">
+
+
+        </activity>
+        <activity
+            android:name=".introductoryActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 

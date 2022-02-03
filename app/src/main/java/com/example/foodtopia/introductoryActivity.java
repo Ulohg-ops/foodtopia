@@ -1,6 +1,8 @@
 package com.example.foodtopia;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.Spanned;
@@ -12,6 +14,9 @@ import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class introductoryActivity extends AppCompatActivity {
 
     //splash底
@@ -20,7 +25,7 @@ public class introductoryActivity extends AppCompatActivity {
     LottieAnimationView animation;
     //Foodtopia
     TextView text_logo;
-
+    Timer timer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,5 +59,15 @@ public class introductoryActivity extends AppCompatActivity {
         background.animate().translationY(-2000).setDuration(1000).setStartDelay(4000);
         animation.animate().translationY(2000).setDuration(1000).setStartDelay(4000);
         text_logo.animate().translationY(1400).setDuration(1000).setStartDelay(4000);
+
+        //automatically switch to another activity
+        timer=new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                Intent intent=new Intent(introductoryActivity.this,OnboardingActivity.class);
+                startActivity(intent);
+            }
+        },6000);
     }
 }

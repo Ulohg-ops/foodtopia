@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/og_bg3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/og_bg2"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:gravity="center">
 
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_gravity="center"
+        android:src="@drawable/onboarding_img3"
         android:fitsSystemWindows="true"
-        android:src="@drawable/onboarding_img2" />
+        android:layout_gravity="center"
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:fontFamily="@font/aldrich"
-        android:gravity="center"
-        android:text="Deit Plan"
+        android:text="Sharing Recipe"
         android:textColor="@color/black"
-        android:textSize="36dp" />
+        android:fontFamily="@font/aldrich"
+
+        android:textSize="36dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
 
     <TextView
-        android:layout_width="280dp"
-        android:layout_height="170dp"
+        android:layout_width="250dp"
+        android:layout_height="178dp"
+        android:textSize="18dp"
         android:fontFamily="@font/aldrich"
-        android:gravity="center"
-        android:text="We have multiple diet plan for you to choose.Just choose suitable one achieve your ideal body."
+        android:text="Share your meal with other users.Encourage each other to be better."
         android:textColor="@color/og_context"
-        android:textSize="18dp" />
+        android:gravity="center"
+        />
 </LinearLayout>
